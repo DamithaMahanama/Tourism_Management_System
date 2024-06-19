@@ -1,0 +1,22 @@
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .image-container {
+    position: relative;
+  }
+  
+  .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .image-container::before {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+  

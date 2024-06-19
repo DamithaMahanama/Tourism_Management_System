@@ -1,0 +1,97 @@
+.AddVehiclePage {
+	position: absolute;
+    background-image: url("https://media1.popsugar-assets.com/files/thumbor/s9ugwN90fkCtjBT7Tsd71bc7Z_U/fit-in/1024x1024/filters:format_auto-!!-:strip_icc-!!-/2014/02/17/838/n/1922441/f0bd144ded7b1bfd_shutterstock_89720368/i/Maldives.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: rgba(0, 0, 0, 0.171);
+    background-blend-mode: overlay;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 6rem;
+	min-height: 100vh;
+	position: relative;
+}
+
+.AddVehiclePage .content {
+	display: flex;
+	margin: 0 0 25px 360px;
+	/* background-color: rgba(255, 255, 255, 0.8); */
+	padding: 100px 20px;
+	z-index: 99;
+}
+
+.AddVehiclePage form {
+	display: flex;
+	width: 35rem;
+	height: 35rem;
+	flex-direction: column;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 20px 0 black;
+	z-index: 99;
+	background-color: #00000054;
+	margin: 0;
+}
+
+.AddVehiclePage .detail {
+	margin: 15px 25px;
+	padding-top: 15px;
+    z-index: 99;
+	font-weight: 500;
+	color: #e0dede;
+	font-size: 1.1rem;
+}
+
+.AddVehiclePage .detail:nth-child(1) {
+	margin-top: 12%;
+}
+
+.AddVehiclePage input,
+.AddVehiclePage select,
+.AddVehiclePage textarea {
+	padding: 10px;
+	border-radius: 5px;
+	width: 11.75rem;
+	max-width: 300px;
+	position: absolute;
+	left: 605px;
+	border: 1px solid #000000;
+	font-size: 14px;
+    background-color: #ffffff;
+}
+
+/* .AddVehiclePage textarea {
+	width: 15.75rem;
+	margin-right: 6.75rem;
+} */
+
+.AddVehiclePage select {
+	width: 208px;
+}
+
+
+.AddVehiclePage button[type="submit"] {
+	margin-top: 25px;
+	padding: 10px 20px;
+	background-color: #df880e;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s ease;
+	width: 225px;
+	margin-left: 198px;
+    margin-bottom: 75px;
+}
+
+.AddVehiclePage button[type="submit"]:hover {
+	background-color: #c5790e;
+}
+
+.AddVehiclePage a {
+	/* text-decoration: none; */
+	color: #ffffff;
+	margin-top: 1rem;
+	margin-left: 2rem;
+}

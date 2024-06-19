@@ -1,0 +1,15 @@
+.aboutUs {
+  width: 80%;
+  text-align: center;
+
+}
+
+.aboutUs p {
+  margin-top: 15%;
+  width: 80%;
+  text-align: justify;
+  font-size: 1.3rem;
+  color: #666565;
+  margin-left: 22%;
+
+}

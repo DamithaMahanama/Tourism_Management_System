@@ -1,0 +1,91 @@
+.AdvertisingPayment {
+	display: flex;
+	flex-direction: column;
+	background-size: cover;
+	background: #9ac8d621;
+	object-fit: cover;
+	width: 100%;
+	height: auto;
+}
+.AdvertisingPayment form {
+	/* background-color: #000000; */
+	width: 750px;
+	border: 1px solid #000000;
+	padding: 28px;
+	border-radius: 15px;
+	margin: 185px 0 70px 20%;
+	backdrop-filter: blur(4px);
+}
+
+.AdvertisingPayment .title p {
+	font-size: 45px;
+	color: #000000;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 15px;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.AdvertisingPayment .basic-info {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 42px 20px;
+}
+
+.AdvertisingPayment .basic-info label {
+	margin-bottom: 5px;
+	font-size: 18px;
+	font-weight: 400;
+	margin-left: 200px;
+}
+
+.AdvertisingPayment .basic-info input:not([type="date"]) {
+	width: 250px;
+	height: 32px;
+	border-radius: 5px;
+	margin-right: 80px;
+	border: 1px solid #000000;
+	padding-left: 15px;
+	font-size: 15px;
+}
+
+.AdvertisingPayment .basic-info select {
+	width: 120px;
+	height: 32px;
+	margin-right: 230px;
+	border-radius: 5px;
+}
+
+.AdvertisingPayment .submit {
+	width: 180px;
+	height: 36px;
+	background-color: #ff9d15;
+	border-radius: 5px;
+	border: none;
+	margin: 35px 0 0 295px;
+}
+
+.AdvertisingPayment .submit:hover {
+	background-color: #df880e;
+}
+
+.AdvertisingPayment .basic-info input[type="date"],
+.AdvertisingPayment .basic-info input[type="number"] {
+	width: 120px;
+	height: 25px;
+	border-radius: 5px;
+	position: absolute;
+	left: 410px;
+	border: 1px solid #000000;
+}
+
+/* Hide the year dropdown */
+.AdvertisingPayment input[type="date"]::-webkit-inner-spin-button,
+.AdvertisingPayment input[type="date"]::-webkit-calendar-picker-indicator {
+	display: none;
+	-webkit-appearance: none;
+}
+.AdvertisingPayment input[type="date"]::-webkit-datetime-edit-year-field {
+	color: transparent;
+}

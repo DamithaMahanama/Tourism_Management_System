@@ -1,0 +1,25 @@
+.OrderAndAdventureExperience {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 12rem;
+	min-height: 100vh;
+	position: relative;
+}
+
+.OrderAndAdventureExperience .adventureCardContainer img {
+	width: 18%;
+}
+
+.OrderAndAdventureExperience button {
+	width: 10rem;
+	height: 2rem;
+	background-color: #dad5d5;
+	border: none;
+	border-radius: 15px;
+}
+
+.OrderAndAdventureExperience .adventureCardContainer a {
+	text-decoration: none;
+	color: #000000;
+}

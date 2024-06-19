@@ -1,0 +1,62 @@
+.AyurvedicTreatmentHomePage {
+	display: flex;
+	flex-direction: column;
+	background: url("https://www.naturalnews.com/wp-content/uploads/sites/91/2018/09/Neem-Ayurveda-Ayurvedic-Dental-Healthy-Herbs-Honey.jpg");
+	background-size: cover;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	padding-top: 4rem;
+	padding-bottom: 12rem;
+	min-height: 100vh;
+	position: relative;
+	object-fit: cover;
+}
+
+.AyurvedicTreatmentHomePage .top {
+	display: flex;
+	margin-top: 72px;
+	margin-left: 50px;
+}
+
+.AyurvedicTreatmentHomePage .top p.sentence {
+	margin-left: 15px;
+	font-size: 26px;
+	margin-right: 150px;
+	color: rgb(0, 0, 0);
+	font-family: "Alkatra", cursive;
+	font-weight: 650;
+}
+
+.AyurvedicTreatmentHomePage .top .button-set {
+	color: aliceblue;
+}
+
+.AyurvedicTreatmentHomePage .top .button-set button {
+	width: 180px;
+	height: 36px;
+	border-radius: 5px;
+	text-align: center;
+	border: 0px;
+	margin: 5px 5px 5px 400px;
+	padding: 5px;
+	background-color: #fa9b2f;
+}
+
+.AyurvedicTreatmentHomePage .bottom .title a {
+    text-decoration: none;
+	color: #000000;
+	background-color: #f1efef;
+	padding: 2px 40px 3px 40px;
+	border-radius: 15px;
+	border:  2px solid #dfdcd2;
+}
+
+.AyurvedicTreatmentHomePage .bottom .title a:hover {
+	background-color: #e9e6e6;
+}
+
+
+.AyurvedicTreatmentHomePage .top .button-set button:hover {
+	background-color: #e99637;
+}

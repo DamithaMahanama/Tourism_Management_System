@@ -1,0 +1,75 @@
+.destinationPage {
+  display: flex;
+	flex-direction: column;
+	background-size: cover;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	/* padding-top: 8rem; */
+	padding-bottom: 12rem;
+	min-height: 100vh;
+	position: relative;
+  
+}
+.destinationPage .destinations {
+  display: flex;
+  /* margin-bottom: 12rem; */
+}
+
+.destinationPage .destination-banner {
+  width: 100%;
+  height: 432px;
+  object-fit: cover;
+}
+
+.destinationPage .left-sidebar {
+    width: 22%;
+    border-right: 2px solid #ccc;
+    padding: 10px;
+    height: auto;
+  }
+  
+  .destinationPage .left-sidebar h2 {
+    margin-bottom: 10px;
+    color: #1b1818;
+    margin-left: 12px;
+  }
+  
+  .destinationPage .left-sidebar label {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 2px;
+  }
+  
+  .destinationPage .left-sidebar label input[type="checkbox"] {
+    margin-right: 5px;
+    margin-left: 15px;
+  }
+  
+  .destinationPage .left-sidebar .province-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+  
+  .destinationPage .left-sidebar .province-col {
+    width: 50%;
+  }
+
+  .destinationPage .Right-Panel {
+    /* position: absolute; */
+    bottom: -22rem;
+    left: 25%;
+  }
+
+  .destinationPage .Right-Panel h2{
+    margin-left: 472px;
+    font-size: 1.9rem;
+  }
+
+  @media (max-width: 600px) {
+    .destinationPage .left-sidebar .province-col {
+      width: 100%;
+    }
+  }
+  

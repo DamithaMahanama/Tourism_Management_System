@@ -1,0 +1,125 @@
+.HotelRegister {
+	display: flex;
+  flex-direction: column;
+  background-size: cover;
+  /* padding-top: 82px; */
+  padding-bottom: 150px;
+  min-height: 100vh;
+  position: relative;
+}
+
+.HotelRegister .content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.HotelRegister form {
+  /* background-color: #000000; */
+  width: 750px;
+  border: 1px solid #000000;
+  padding: 28px;
+  border-radius: 15px;
+  margin: 8.5% 0 70px 20%;
+  backdrop-filter: blur(4px);
+  
+  
+}
+
+.HotelRegister .title p {
+  font-size: 45px;
+  color: #000000;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.HotelRegister .basic-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 42px 20px;   
+  }
+  
+.HotelRegister  .basic-info label{
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight:400;
+    margin-left: 205px;
+
+  }
+
+.HotelRegister  .basic-info input:not([type=file]), .HotelRegister textarea {
+    width: 250px;
+    height: 32px;
+    border-radius: 5px;
+    margin-right: 80px;
+    border: 1px solid #000000;
+    padding-left: 15px;
+    font-size: 15px;
+
+  }
+
+  .HotelRegister textarea {
+    width: 34%;
+  }
+
+ .HotelRegister .basic-info input[type=file] {
+    margin-right: 76px;
+  }
+
+ .HotelRegister .choices {
+    margin:  10px 0 5px 205px;
+  }
+
+ .HotelRegister .choices .main-label {
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 20px;
+  }
+
+.HotelRegister  .choice input{
+    margin: 5px 15px 0 15px;
+  }
+
+ .HotelRegister .languages {
+    margin-left: 205px;
+    margin-top: 46px;
+    margin-bottom: 15px;
+    
+  }
+
+ .HotelRegister .languages .main-label {
+    font-weight: 500;
+    margin-left: 22px;
+  }
+
+ .HotelRegister .languages .language {
+    padding: 5px;
+  }
+
+ .HotelRegister .languages .column-1, .languages .column-2 {
+    margin-top: 15px;
+    margin-left: 25px;
+  }
+
+.HotelRegister.languages .column-2 {
+    position: absolute;
+    top: 896px;
+    margin-left: 105px;
+  }
+
+.HotelRegister  .submit {
+    width: 180px;
+    height: 36px;
+    background-color: #FF9D15;
+    border-radius: 5px;
+    border: none;
+    margin: 35px 0 0 295px;
+  }
+
+ .HotelRegister .submit:hover {
+    background-color: #DF880E;
+  }
+  

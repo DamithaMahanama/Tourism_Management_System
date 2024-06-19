@@ -1,0 +1,63 @@
+.destinationDetailsPage {
+    display: flex;
+	flex-direction: column;
+	background-size: cover;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 8rem;
+	min-height: 100vh;
+	position: relative;
+}
+
+.destinationDetailsPage iframe {
+    margin-top: 3rem;
+}
+.destinationDetails {
+    display: flex;
+    margin-top: 2.5rem;
+}
+.destinationDetailsPage .left-panel {
+    width: 28%;
+    height: auto;
+    background-color: rgb(83, 87, 90);
+    margin-top: 3rem;
+    padding: 0;
+
+}
+
+.destinationDetailsPage .left-panel h2 {
+    font-size: 2.1rem;
+    margin: 0 15px;
+    padding: 45px 0 0 0;
+}
+
+.destinationDetailsPage .left-panel ul {
+    list-style: none;
+    padding: 0;
+}
+
+.destinationDetailsPage .left-panel ul li {
+    margin-bottom: 15px;
+    padding-left: 1rem;
+}
+
+.destinationDetailsPage .destinationDetails ul li:nth-child(1) {
+    font-size: 2.4rem;
+    color: #ffffff;
+    font-weight: 550;
+    
+}
+
+.destinationDetailsPage .destinationDetails ul li:nth-child(2) {
+    text-align: justify;
+    padding-right: 0.8rem;
+    font-weight: 450;
+}
+
+
+.destinationDetailsPage .destinationDetails .right-panel iframe {
+    width: 70rem;
+}
+
+

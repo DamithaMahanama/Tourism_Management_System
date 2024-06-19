@@ -1,0 +1,144 @@
+.RequestBooking {
+	display: flex;
+	margin-top: 72px;
+	margin-bottom: 2px;
+}
+
+.RequestBooking .left-side {
+	width: 25%;
+	background-color: #837e7e;
+	height: auto;
+}
+
+.RequestBooking .left-side .label-button {
+	margin: 18px 0 18px 0;
+	font-size: 1.2rem;
+	background-color: #524f4f;
+	display: block;
+	padding: 15px 15px;
+}
+
+.RequestBooking .left-side .label-button:nth-of-type(5) {
+	background-color: #000000b6;
+}
+
+.RequestBooking .left-side .label-button label {
+	color: #ffffffc0;
+	font-weight: 450;
+}
+
+.RequestBooking .left-side .label-button label i {
+	margin-right: 12px;
+	color: #000000b6;
+}
+
+.RequestBooking .left-side .label-button label span {
+	position: absolute;
+	left: 18rem;
+}
+
+.RequestBooking .right-side {
+	/* width: 50%; */
+	/* margin: 6.8rem 14.0rem; */
+	margin-left: 1rem;
+}
+
+.RequestBooking .right-side .top-nav {
+	display: flex;
+	background-color: #afacac;
+	padding: 5px 35px;
+	margin: 1.5rem 8.5rem;
+	border-radius: 35px;
+}
+
+.RequestBooking .right-side .top-nav ul {
+	display: flex;
+	list-style: none;
+}
+
+.RequestBooking .right-side .top-nav ul li {
+	margin-left: 2.8rem;
+	background-color: #ffffff;
+	padding: 2px 25px;
+	border-radius: 5px;
+}
+
+.RequestBooking form {
+	border: 0;
+	width: 550px;
+	height: 550px;
+	margin-left: 6rem;
+	display: block;
+	border-radius: 5px;
+	padding: 15px;
+}
+
+.RequestBooking .right-side form .basic-info {
+	margin: 40px 15px;
+}
+
+.RequestBooking .right-side form .basic-info label {
+	text-align: center;
+	margin-right: 180px;
+	margin-top: 150px;
+}
+
+.RequestBooking .right-side form .title {
+	text-align: center;
+	font-size: 28px;
+	font-weight: 500;
+}
+
+.RequestBooking
+	.right-side
+	form
+	.basic-info
+	input:not(.RequestBooking .right-side form .basic-info input[type="radio"]),
+.RequestBooking .right-side form .basic-info select,
+.RequestBooking .right-side form .basic-info textarea {
+	position: absolute;
+	left: 52.0rem;
+	width: 195px;
+	height: 15px;
+	border-radius: 5px;
+	border: 1px solid #000000;
+	padding: 12px;
+}
+
+.RequestBooking .right-side form .basic-info select {
+	width: 220px;
+	height: 32px;
+}
+
+.RequestBooking .right-side form .basic-info input[type="file"] {
+	margin-top: 28px;
+}
+
+.RequestBooking .right-side form button {
+	display: block;
+	margin-left: 11rem;
+	color: #ffffff;
+	font-size: 18px;
+	width: 19.5rem;
+	height: 2.8rem;
+	border: none;
+	border-radius: 5px;
+}
+
+.RequestBooking .right-side form .button-place {
+	background-color: #17ce42;
+	margin-bottom: 15px;
+	margin-top: 70px;
+}
+
+.RequestBooking .right-side form .button-place:hover {
+	background-color: #14b43a;
+}
+
+.RequestBooking .right-side .button-contacting {
+	background-color: #0eb9e4;
+}
+
+.RequestBooking .right-side .button-contacting:hover {
+	background-color: #0a8eaf;
+}

@@ -1,0 +1,90 @@
+.MyTreatmentOrderPage {
+	position: absolute;
+    background-image: url("https://www.naturalnews.com/wp-content/uploads/sites/91/2019/01/Neem-Ayurveda-Ayurvedic-Dental-Healthy-Herbs-Honey.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: rgba(0, 0, 0, 0.171);
+    background-blend-mode: overlay;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 6rem;
+	min-height: 100vh;
+	position: relative;
+}
+
+
+.MyTreatmentOrderPage .content {
+	display: flex;
+	margin: 0 0 1.8% 26%;
+	/* background-color: rgba(255, 255, 255, 0.8); */
+	padding: 100px 20px;
+	z-index: 99;
+}
+
+.MyTreatmentOrderPage form {
+	display: flex;
+	width: 35rem;
+	height: 25rem;
+	flex-direction: column;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 20px 0 black;
+	z-index: 99;
+	background-color: #00000054;
+}
+
+.MyTreatmentOrderPage .detail {
+	margin: 15px 25px;
+	padding-top: 15px;
+    z-index: 99;
+	font-weight: 500;
+	color: #e0dede;
+	font-size: 1.1rem;
+}
+
+.MyTreatmentOrderPage .detail:nth-child(1) {
+	margin-top: 12%;
+}
+
+.MyTreatmentOrderPage input,
+.MyTreatmentOrderPage select,
+.MyTreatmentOrderPage textarea {
+	padding: 10px;
+	border-radius: 5px;
+	width: 11.75rem;
+	max-width: 300px;
+	position: absolute;
+	left: 605px;
+	border: 1px solid #000000;
+	font-size: 14px;
+    background-color: #ffffff;
+}
+
+/* .MyTreatmentOrderPage textarea {
+	width: 15.75rem;
+	margin-right: 6.75rem;
+} */
+
+.MyTreatmentOrderPage select {
+	width: 208px;
+}
+
+
+.MyTreatmentOrderPage button[type="submit"] {
+	margin-top: 6.5%;
+	padding: 10px 20px;
+	background-color: #df880e;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s ease;
+	width: 225px;
+	margin-left: 39%;
+    margin-bottom: 4%;
+}
+
+.MyTreatmentOrderPage button[type="submit"]:hover {
+	background-color: #c5790e;
+}

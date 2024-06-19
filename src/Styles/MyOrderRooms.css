@@ -1,0 +1,89 @@
+.MyOrderRooms {
+	position: absolute;
+    background-image: url("https://homesfeed.com/wp-content/uploads/2015/09/pictures-television-table-cabinet-couches-pillows-window-curtains-rug-floor-lamp-ceiling-wall.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: rgba(5, 5, 5, 0.651);
+    background-blend-mode: overlay;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 6rem;
+	min-height: 100vh;
+	position: relative;
+}
+
+.MyOrderRooms .content {
+	display: flex;
+	margin: 0 0 25px 360px;
+	/* background-color: rgba(255, 255, 255, 0.8); */
+	padding: 100px 20px;
+	z-index: 99;
+}
+
+.MyOrderRooms form {
+	display: flex;
+	width: 35rem;
+	height: 25rem;
+	flex-direction: column;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 20px 0 black;
+	z-index: 99;
+	background-color: #00000054;
+}
+
+.MyOrderRooms .detail {
+	margin: 15px 25px;
+	padding-top: 15px;
+    z-index: 99;
+	font-weight: 500;
+	color: #e0dede;
+	font-size: 1.1rem;
+}
+
+.MyOrderRooms .detail:nth-child(1) {
+	margin-top: 12%;
+}
+
+.MyOrderRooms input,
+.MyOrderRooms select,
+.MyOrderRooms textarea {
+	padding: 10px;
+	border-radius: 5px;
+	width: 11.75rem;
+	max-width: 300px;
+	position: absolute;
+	left: 605px;
+	border: 1px solid #000000;
+	font-size: 14px;
+    background-color: #ffffff;
+}
+
+/* .MyOrderRooms textarea {
+	width: 15.75rem;
+	margin-right: 6.75rem;
+} */
+
+.MyOrderRooms select {
+	width: 208px;
+}
+
+
+.MyOrderRooms button[type="submit"] {
+	margin-top: 25px;
+	padding: 10px 20px;
+	background-color: #df880e;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s ease;
+	width: 225px;
+	margin-left: 198px;
+    margin-bottom: 75px;
+}
+
+.MyOrderRooms button[type="submit"]:hover {
+	background-color: #c5790e;
+}

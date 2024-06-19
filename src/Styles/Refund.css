@@ -1,0 +1,57 @@
+.RefundPage {
+	display: flex;
+    flex-direction: column;
+	width: 100%;
+	height: 100%;
+	/* padding-top: 8rem; */
+	padding-bottom: 12rem;
+	min-height: 100vh;
+	position: relative;
+
+}
+
+.RefundPage .policies {
+	background-color: #c5f7f6;
+    padding: 4%;
+}
+.RefundPage h2 {
+	font-size: 3.5rem;
+	margin-left: 40%;
+}
+
+.RefundPage .title {
+	font-size: 1.6rem;
+	font-weight: 450;
+}
+
+.RefundPage .details {
+	width: 90%;
+}
+
+.RefundPage .actions {
+    padding-left: 2%;
+	display: flex;
+	margin-top: 2%;
+}
+
+.RefundPage .reason textarea {
+	background-color: #b3d6f6;
+	width: 26rem;
+	height: 10rem;
+	font-size: 1.1rem;
+}
+
+.RefundPage .buttons {
+	margin-left: 20rem;
+}
+
+.RefundPage .buttons button {
+	display: table-row;
+	width: 10rem;
+	height: 2.1rem;
+	background-color: #a6ef95;
+	margin-top: 4%;
+	border: none;
+	font-weight: 550;
+	font-size: 1rem;
+}

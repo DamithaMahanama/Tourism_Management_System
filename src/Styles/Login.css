@@ -1,0 +1,83 @@
+.login-page {
+	display: flex;
+	flex-direction: column;
+	background: url("../images/tourist-background-image.jpg");
+	background-size: cover;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	padding-top: 82px;
+	padding-bottom: 150px;
+	min-height: 100vh;
+	position: relative;
+}
+
+.login-page .content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.login-page .content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/* height: calc(100vh - 150px); */
+	margin-top: 130px;
+	margin-bottom: 70px;
+}
+
+.login-page form {
+	display: flex;
+	width: 370px;
+	height: 370px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 35px;
+	border-radius: 10px;
+	box-shadow: 0 0 20px 0 black;
+	z-index: 99;
+	margin-bottom: 50px;
+}
+
+.login-page form h2 {
+	margin-bottom: 10px;
+	font-size: 36px;
+	filter: drop-shadow(0px 0px 1px #000000);
+}
+.login-page input[type="email"],
+.login-page input[type="password"] {
+	padding: 10px;
+	margin: 25px 0 0 0;
+	border: none;
+	border-radius: 5px;
+	width: 100%;
+	max-width: 300px;
+}
+
+.login-page button[type="submit"] {
+	margin-top: 20px;
+	padding: 10px 20px;
+	background-color: #df880e;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+
+.login-page button[type="submit"]:hover {
+	background-color: #c5790e;
+}
+
+.login-page a {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+
+.login-page a span:hover {
+	color: #2c2a27;
+}
+

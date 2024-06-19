@@ -1,0 +1,81 @@
+.ActivityRegister form {
+	border: 0;
+	width: 550px;
+	height: 550px;
+	margin-left: 360px;
+	margin-top: 102px;
+    margin-bottom: 85px;
+	justify-content: start;
+	display: block;
+	box-shadow: 0 0 20px 0 #000000;
+	border-radius: 5px;
+	padding: 15px;
+}
+
+.ActivityRegister form .basic-info {
+	margin: 40px 15px;
+}
+
+.ActivityRegister form .basic-info label {
+	text-align: center;
+	margin-right: 80px;
+	margin-top: 150px;
+}
+
+.ActivityRegister form .title {
+	text-align: center;
+	font-size: 28px;
+	font-weight: 500;
+}
+
+.ActivityRegister
+	form
+	.basic-info
+	input:not(.ActivityRegister form .basic-info input[type="radio"]),
+.ActivityRegister form .basic-info select, .ActivityRegister form .basic-info textarea{
+	position: absolute;
+	left: 670px;
+	width: 195px;
+	height: 15px;
+	border-radius: 5px;
+	border: 1px solid #000000;
+	padding: 12px;
+}
+
+.ActivityRegister form .basic-info select {
+    width: 220px;
+    height: 32px;
+}
+
+.ActivityRegister form .basic-info input[type=file] {
+    margin-top: 28px;
+}
+
+.ActivityRegister form button {
+	display: inline-block;
+	margin-left: 185px;
+	color: #ffffff;
+	font-size: 18px;
+	width: 195px;
+	height: 28px;
+	border: none;
+	border-radius: 5px;
+}
+
+.ActivityRegister form .button-submit {
+	background-color: #17ce42;
+    margin-bottom: 15px;
+    margin-top: 70px;
+}
+
+.ActivityRegister form .button-submit:hover {
+	background-color: #14b43a;
+}
+
+.ActivityRegister .button-cancel {
+	background-color: #0eb9e4;
+}
+
+.ActivityRegister .button-cancel:hover {
+	background-color: #0a8eaf;
+}

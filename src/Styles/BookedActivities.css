@@ -1,0 +1,84 @@
+.BookingRequest {
+    display: flex;
+    margin-top: 72px;
+    margin-bottom: 2px;
+ 
+ }
+ 
+ .BookingRequest .left-side {
+     width: 25%;
+     background-color: #837e7e;
+     height: auto;
+ }
+ 
+ .BookingRequest .left-side .label-button {
+     margin: 18px 0 18px 0;
+     font-size: 1.2rem;
+     background-color: #524f4f;
+     display: block;
+     padding: 15px 15px;
+ 
+ }
+ 
+ .BookingRequest .left-side .label-button:nth-of-type(4) {
+   background-color: #000000b6;
+ }
+ 
+ .BookingRequest .left-side .label-button label {
+     color: #ffffffc0;
+     font-weight: 450;
+ }
+ 
+ .BookingRequest .left-side .label-button label i {
+     margin-right: 12px;
+     color: #000000b6;
+ }
+ 
+ .BookingRequest .left-side .label-button label span {
+     position: absolute;
+     left: 18rem;
+ }
+ 
+ .BookingRequest .right-side {
+     /* width: 50%; */
+     /* margin: 6.8rem 14.0rem; */
+     margin-left: 1rem;
+ }
+ 
+ .BookingRequest .right-side h2 {
+   text-align: center;
+ }
+ .BookingRequest .right-side table {
+   border-collapse: collapse;
+   width: 150%;
+   margin-bottom: 20px;
+   border: 0;
+ }
+ 
+ .BookingRequest .right-side table tr th {
+   background-color: #DDDDDD;
+ }
+ 
+ .BookingRequest .right-side table th, .BookingRequest .right-side table td {
+   text-align: left;
+   padding: 18px;
+   border: 0;
+ }
+ 
+ .BookingRequest .right-side table tr button {
+   width: 100px;
+   height: 36px;
+   background-color: #00b7ff;
+   color: #ffffff;
+   font-weight: 450;
+   border: none;
+   border-radius: 5px;
+   margin-left: 3.4rem;
+ }
+ 
+ .BookingRequest .right-side table tr button:hover {
+   background-color: #019fdd;
+ }
+ 
+ 
+ 

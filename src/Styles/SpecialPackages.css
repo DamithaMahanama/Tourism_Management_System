@@ -1,0 +1,53 @@
+.specialPackages .container {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.specialPackages .packages {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 15%;
+}
+
+.specialPackages .package {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 20px;
+	width: 30%;
+}
+
+.specialPackages .package h3 {
+	margin-top: 0;
+  font-size: 2rem;
+}
+
+.specialPackages .package h4 {
+	margin: 2% 0;
+	font-size: 1.6rem;
+}
+
+.specialPackages .package ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.specialPackages .package li {
+	margin-bottom: 10px;
+	font-size: 16px;
+}
+
+.specialPackages .packages .package button {
+  margin-left: 18%;
+  width: 12rem;
+  height: 10%;
+  background-color: #fa9b2f;
+  border: none;
+  border-radius: 15px;
+}
+
+.specialPackages .packages .package button:hover {
+  background-color: #df8927;
+  transition: 0.3s ease all;
+}

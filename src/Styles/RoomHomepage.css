@@ -1,0 +1,88 @@
+.RoomHomePage {
+	display: flex;
+    flex-direction: column;
+	width: 100%;
+	height: 100%;
+	/* padding-top: 8rem; */
+	padding-bottom: 40rem;
+	min-height: 100vh;
+	position: relative;
+}
+
+.RoomHomePage .right {
+	width: 74%;
+	position: absolute;
+	/* left: 320px; */
+	top: 100px;
+}
+
+.RoomHomePage .right .rating-star {
+	font-size: 2rem;
+}
+
+.RoomHomePage .right .rating-star span {
+	color: gray;
+	cursor: pointer;
+}
+
+.RoomHomePage .right .rating-star span.filled {
+	color: gold;
+}
+
+.RoomHomePage .right .room {
+	display: flex;
+	/* align-items: center; */
+	border-radius: 2px;
+	border: 1px solid #000000;
+	border-radius: 25px;
+	padding: 2%;
+	width: 125%;
+	/* margin: 0 5%; */
+	margin-left: 1%;
+}
+
+.RoomHomePage .right .content {
+	flex: 1;
+	width: 50%;
+}
+
+.RoomHomePage .right .content .room-name {
+	/* margin: 10px; */
+	
+	font-weight: 650;
+}
+
+.RoomHomePage .right .content p {
+	font-size: 15px;
+	justify-content: center;
+	text-align: justify;
+}
+
+.RoomHomePage .right .room-details img {
+	width: 12rem;
+	height: 12rem;
+	object-fit: cover;
+	border-radius: 5px;
+	margin: 16px;
+}
+
+.RoomHomePage button {
+	position: relative;
+	bottom: 4.45rem;
+	left: 78%;
+	width: 10.5rem;
+	height: 2rem;
+	border: none;
+	border-radius: 15px;
+	background-color: #df880e;
+	color: #ffffff;
+}
+
+.RoomHomePage button:hover {
+	background-color: #ce7e0e;
+}
+
+.RoomHomePage button a {
+	text-decoration: none;
+	color: #ffffff;
+}

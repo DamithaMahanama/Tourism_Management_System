@@ -1,0 +1,71 @@
+.booking-details form {
+	border: 0;
+	width: 550px;
+	height: 550px;
+	margin-left: 360px;
+	margin-top: 102px;
+    margin-bottom: 80px;
+	justify-content: start;
+	display: block;
+	box-shadow: 0 0 20px 0 #000000;
+	border-radius: 5px;
+	padding: 15px;
+}
+
+.booking-details form .basic-info {
+	margin: 40px 15px;
+}
+
+.booking-details form .basic-info label {
+	text-align: center;
+	margin-right: 80px;
+	margin-top: 150px !important;
+}
+
+.booking-details form .title {
+	text-align: center;
+	font-size: 28px;
+	font-weight: 500;
+}
+
+.booking-details
+	form
+	.basic-info
+	input:not(.booking-details form .basic-info input[type="radio"]),
+.booking-details form .basic-info select {
+	position: absolute;
+	left: 670px;
+	width: 195px;
+	height: 15px;
+	border-radius: 5px;
+	border: 1px solid #000000;
+	padding: 12px;
+}
+
+.booking-details form button {
+	display: inline-block;
+	margin-left: 185px;
+	color: #ffffff;
+	font-size: 18px;
+	width: 195px;
+	height: 28px;
+	border: none;
+	border-radius: 5px;
+}
+
+.booking-details form .button-submit {
+	background-color: #17ce42;
+    margin-bottom: 15px;
+}
+
+.booking-details form .button-submit:hover {
+	background-color: #14b43a;
+}
+
+.booking-details .button-reset {
+	background-color: #0eb9e4;
+}
+
+.booking-details .button-reset:hover {
+	background-color: #0a8eaf;
+}

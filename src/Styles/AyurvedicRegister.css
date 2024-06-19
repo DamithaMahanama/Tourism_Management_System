@@ -1,0 +1,81 @@
+.AyurvedicRegisterPage {
+	display: flex;
+	width: 100%;
+	/* height: 100%; */
+	padding-bottom: 6rem;
+	min-height: 100vh;
+	position: relative;
+}
+ 
+.AyurvedicRegisterPage .AyurvedicRegister {
+	margin-top: 8rem;
+	
+}
+.AyurvedicRegisterPage .AyurvedicRegister form {
+	display: flex;
+	width: 570px;
+	flex-direction: column;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 4px 0 black;
+	z-index: 99;
+	background-color: #ffffff28;
+    margin-left: 350px;
+    margin-bottom: 110px;
+}
+ 
+.AyurvedicRegisterPage .AyurvedicRegister form h2 {
+    text-align: center;
+    font-size: 1.9rem;
+}
+
+.AyurvedicRegisterPage .AyurvedicRegister .detail:not(.AyurvedicRegisterPage .AyurvedicRegister .choice .detail) {
+	margin: 15px 25px;
+	padding-top: 15px;
+    z-index: 99;
+	font-weight: 500;
+}
+
+.AyurvedicRegisterPage .AyurvedicRegister input:not(.AyurvedicRegisterPage .AyurvedicRegister .choice .radio-button input) {
+	padding: 10px;
+	border-radius: 5px;
+	width: 11.75rem;
+	max-width: 300px;
+	position: absolute;
+	left: 605px;
+	border: 1px solid #000000;
+	font-size: 14px;
+    background-color: #fffffff0;
+}
+.AyurvedicRegisterPage .AyurvedicRegister .choice {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0 0 75px ;
+}
+
+.AyurvedicRegisterPage .AyurvedicRegister .choice .radio-button {
+    margin: 15px 85px 15px 50px;
+}
+
+
+.AyurvedicRegisterPage .AyurvedicRegister .choice label {
+    margin-left: 15px;
+}
+
+
+.AyurvedicRegisterPage .AyurvedicRegister button[type="submit"] {
+	margin-top: 25px;
+	padding: 10px 20px;
+	background-color: #df880e;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.3s ease;
+	width: 225px;
+	margin-left: 198px;
+}
+
+.AyurvedicRegisterPage .AyurvedicRegister button[type="submit"]:hover {
+	background-color: #c5790e;
+}

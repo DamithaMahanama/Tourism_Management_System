@@ -1,0 +1,29 @@
+.features {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .features h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 30px;
+  }
+  
+  .feature {
+    margin-bottom: 40px;
+  }
+  
+  .feature h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  .feature p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  

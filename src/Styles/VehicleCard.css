@@ -1,0 +1,44 @@
+.vehicleCardContainer {
+    display: flex;
+    flex-wrap:wrap-reverse;
+
+  }
+  
+  .vehicleCardContainer .vehicleCard {
+    width: 22rem;
+    height: 25rem;
+    background-color: #111010c5;
+    border-radius: 15px;  
+    margin: 1.5% 2.5%;
+    box-shadow: 2px 2px 16px #888888;
+  }
+
+  .vehicleCardContainer .vehicleCard .top img {
+    width: 22rem;
+    height: 15.5rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .vehicleCardContainer .vehicleCard .bottom {
+    margin-top: 15px;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 15px;
+    
+  }
+
+  .vehicleCardContainer .vehicleCard .bottom .title {
+    font-size: 1.2rem;
+    padding: 5px;
+  }
+
+  .vehicleCardContainer .vehicleCard .bottom button {
+    width: 92px;
+    height: 26px;
+    border: none;
+    border-radius: 5px;
+    background-color: #18AfFE;
+    color: #ffffff;
+    font-weight: 400;
+  }

@@ -1,0 +1,55 @@
+.treatmentCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 4rem;
+    margin-top: 5vh;
+
+  }
+  
+  .treatmentCardContainer .treatmentCard {
+    width: 25rem;
+    height: 64vh;
+    background-color: #ffffffea;
+    border-radius: 15px;  
+    margin: 1rem 2rem;
+    box-shadow: 2px 2px 16px #8888885d;
+  }
+
+  .treatmentCardContainer .treatmentCard .top img {
+    width: 23rem;
+    height: 245px;
+    object-fit: cover;
+    margin: -38px;
+    border-radius: 5px;
+
+  }
+
+  .treatmentCardContainer .treatmentCard .bottom {
+    margin-top: 15px;
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 48px;
+    
+  }
+
+  .treatmentCardContainer .treatmentCard .bottom .title {
+    font-size: 1.2rem;
+    /* padding: 5px; */
+    color: #050505;
+    margin-bottom: 25px;
+    margin-top: 45px;
+    font-weight: 500;
+  }
+
+  .treatmentCardContainer .treatmentCard .bottom select {
+    width: 190px;
+    padding: 6px 10px;
+    border-radius: 5px;
+
+  }
+
+  .treatmentCardContainer .treatmentCard .bottom .price {
+    color: #050505;
+    font-size: 18px;
+    font-weight: 500;
+  }

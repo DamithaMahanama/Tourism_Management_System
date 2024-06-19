@@ -1,0 +1,84 @@
+.GuideBookingDetails {
+	display: flex;
+	flex-direction: column;
+	background-size: cover;
+	background: #9ac8d621;
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
+	/* padding-top: 4rem; */
+	padding-bottom: 12rem;
+	min-height: 100vh;
+	position: relative;
+}
+.GuideBookingDetails form {
+	/* background-color: #000000; */
+	width: 750px;
+	border: 1px solid #000000;
+	padding: 28px;
+	border-radius: 15px;
+	margin: 12rem 0 70px 20%;
+	backdrop-filter: blur(4px);
+}
+
+.GuideBookingDetails .title p {
+	font-size: 45px;
+	color: #000000;
+	font-weight: 600;
+	text-align: center;
+	margin-bottom: 15px;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.GuideBookingDetails .basic-info {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 42px 20px;
+}
+
+.GuideBookingDetails .basic-info label {
+	margin-bottom: 5px;
+	font-size: 18px;
+	font-weight: 400;
+	margin-left: 205px;
+}
+
+.GuideBookingDetails .basic-info input:not([type="date"]) {
+	width: 250px;
+	height: 32px;
+	border-radius: 5px;
+	margin-right: 80px;
+	border: 1px solid #000000;
+	padding-left: 15px;
+	font-size: 15px;
+}
+
+.GuideBookingDetails .basic-info select {
+	width: 120px;
+	height: 32px;
+	margin-right: 230px;
+	border-radius: 5px;
+}
+
+.GuideBookingDetails .submit {
+	width: 180px;
+	height: 36px;
+	background-color: #ff9d15;
+	border-radius: 5px;
+	border: none;
+	margin: 35px 0 0 295px;
+}
+
+.GuideBookingDetails .submit:hover {
+	background-color: #df880e;
+}
+
+.GuideBookingDetails .basic-info input[type="date"] {
+	width: 120px;
+	height: 25px;
+	border-radius: 5px;
+	position: absolute;
+	left: 405px;
+	border: 1px solid #000000;
+}

@@ -1,0 +1,256 @@
+.HotelHomePage {
+    display: flex;
+    flex-direction: column;
+	width: 100%;
+	height: 100%;
+	/* padding-top: 8rem; */
+	padding-bottom: 12rem;
+	min-height: 100vh;
+	position: relative;
+}
+.HotelHomePage .left {
+    width: 26%;
+    height: 100%;
+    background-color: #000000bb;
+    border-left: 2px solid #000000;
+    padding-left: 5px;
+    margin-top: 2%;
+}
+
+.HotelHomePage .left h2 {
+    margin: 0 0 0 15px;
+    padding-top: 25px;
+    color: #ffffff;
+}
+
+.HotelHomePage .left label:not(.HotelHomePage .hotel-star-rating label):not(.HotelHomePage .hotel-room-type .room-type):not(.HotelHomePage .price-range label) {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-left: 18px;
+    
+}
+
+.HotelHomePage .left .advertisement {
+    margin: 25px 10px;
+    align-items: center;
+    z-index: 99;
+
+}
+
+.HotelHomePage .left .advertisement .add img{
+    width:275px;
+    height: 105px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 16px;
+}
+
+.HotelHomePage input:not([type=range]):not([type=checkbox]):not(.hotel-star-rating input):not(.HotelHomePage .hotel-room-type input):not(.HotelHomePage .price-range input) {
+    position: absolute;
+    left: 135px;
+    margin-top: 2px;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 2px;
+    border: none;
+    height: 18px;
+    width: 175px;
+}
+
+.HotelHomePage .country, .city, .room, .checkin, .checkout {
+    margin-top: 30px;
+}
+
+.country select, .hotel-type select, .city select, .room select  {
+    position: absolute;
+    left: 135px;
+    margin-top: 2px;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 2px;
+    border: none;
+    height: 26px;
+    width: 185px;
+}
+
+.HotelHomePage .hotel-star-rating, .HotelHomePage .hotel-room-type {
+    margin-top: 25px;
+    
+}
+
+.HotelHomePage .hotel-star-rating .rate, .HotelHomePage .hotel-room-type .room-type {
+    margin: 15px;
+    color: #df880e;
+    font-weight: 500;
+}
+
+.HotelHomePage .hotel-star-rating label:not(.HotelHomePage .hotel-star-rating .rate), .HotelHomePage .hotel-room-type label:not(.HotelHomePage .hotel-room-type .room-type) {
+    color: #ffffff;
+    margin: 15px;
+}
+
+.HotelHomePage .hotel-star-rating input, .HotelHomePage .hotel-room-type input {
+    position: absolute;
+    margin-top: -16px;
+    margin-left: 195px;
+    width: 15px;
+    transform: scale(1.2);
+}
+
+.HotelHomePage .price-range .currency select{
+    width: 95px;
+    height: 32px;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.HotelHomePage .price-range {
+    display: flex;
+    margin: 25px;
+    /* background-color: #000000; */
+    justify-content: center;
+    color: #ffffff;
+
+}
+
+.HotelHomePage .price-range label {
+    margin: 0 15px;
+}
+
+.HotelHomePage .price-range input {
+    width: 55px;
+}
+
+
+.HotelHomePage .feedback {
+    margin-top: 30px;
+    display: block;
+    
+}
+
+.HotelHomePage .feedback input[type=range] {
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+    width: 90%;
+    margin-left: 18px;
+}
+
+.HotelHomePage .hotel-type {
+    margin-top: 15px;
+
+}
+
+.HotelHomePage .available {
+    margin-top: 22px;
+}
+
+.HotelHomePage .available {
+    display: flex;
+    align-items: center;
+}
+
+.HotelHomePage .available input[type="checkbox"] {
+    margin-left: 18px;
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.HotelHomePage .search-button button {
+    margin-top: 35px;
+    width: 145px;
+    height: 35px;
+    /* padding: 15px; */
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    margin-left: 75px;
+    font-size: 16px;
+    background-color: #df880e;
+}
+
+.HotelHomePage .search-button i {
+    font-size: 20px;
+    color: #000000;
+    margin-left: 35px;
+}
+
+.HotelHomePage .right {
+    width: 74%;
+    position: absolute;
+    left: 25rem;
+    top: 10rem;
+}
+
+.HotelHomePage .right .rating-star {
+    font-size: 2rem;
+}
+  
+.HotelHomePage .right .rating-star span {
+    color: gray;
+    cursor: pointer;
+}
+  
+.HotelHomePage .right .rating-star span.filled {
+    color: gold;
+}
+
+.HotelHomePage .right .hotel {
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    border: 1px solid #000000;
+    border-radius: 25px;;
+    padding: 2%;
+    width: 85%;
+    margin: 0 5%;
+    margin-left: auto;
+}
+
+.HotelHomePage .right .content {
+    flex: 1;
+}
+
+.HotelHomePage .right .content .ht-name{
+    /* margin: 10px; */
+    font-weight: 550;
+}
+
+.HotelHomePage .right .content p {
+    font-size: 15px;
+    justify-content: center;
+    text-align: justify;
+}
+
+
+.HotelHomePage .right .hotel-details img {
+    width: 175px;
+    height: 175px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 16px;
+}
+
+.HotelHomePage button:nth-child(2) {
+    position: relative;
+    bottom: 2.45rem;
+    left: 28%;
+    width: 10.5rem;
+    height:1.5rem;
+    border: none;
+    border-radius: 15px;
+    background-color: #df880e;
+    color: #ffffff;
+
+}
+
+.HotelHomePage button:hover {
+    background-color: #ce7e0e;
+}
+
+.HotelHomePage button a {
+    text-decoration: none;
+    color: #ffffff;
+
+}

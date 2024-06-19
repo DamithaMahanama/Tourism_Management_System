@@ -1,0 +1,59 @@
+.vehiclePage {
+	width: 100%;
+	height: 100%;
+	padding-top: 4rem;
+	padding-bottom: 12rem;
+	min-height: 100vh;
+	position: relative;
+}
+
+.vehiclePage .vehicle-banner {
+	width: 100%;
+	height: 80%;
+}
+
+.vehiclePage .VehicleCard {
+	margin-top: 150px;
+}
+
+.vehiclePage .SearchBar {
+	text-align: center;
+	margin: 25px;
+	padding: 15px;
+	/* border: 1px solid #000; */
+	background-color: #9992926b;
+	width: 780px;
+	margin-left: 280px;
+	border-radius: 20px;
+}
+
+.vehiclePage .SearchBar input {
+	margin: 5px 15px;
+	padding: 8px;
+	border-radius: 5px;
+	border: none;
+}
+
+.vehiclePage .SearchBar button,
+.vehiclePage .orderButton {
+	width: 128px;
+	height: 32px;
+	background-color: #18a5fa;
+	border: none;
+	border-radius: 5px;
+	color: #ffffff;
+	font-weight: 400;
+}
+
+.vehiclePage .orderButton {
+	/* margin-left: 48%; */
+}
+
+.vehiclePage .orderButton a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.vehiclePage button:hover {
+	background-color: #0e6eaa;
+}
